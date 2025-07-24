@@ -1,0 +1,13 @@
+project_name          = "BSS"
+aws_region            = "eu-central-1"
+vpc_cidr_block        = "10.0.0.0/16"
+public_subnet_cidrs   = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs  = ["10.0.101.0/24", "10.0.102.0/24"]
+ssh_key_name          = "bamboo-slideshow-key"
+min_size              = 1
+max_size              = 3
+desired_capacity      = 1
+s3_bucket_name        = "bamboo-slideshow-images"
+web_domain            = "domain.info"
+subdomain_wildcard    = "*.domain.info"
+alert_email           = "THEEMAIL@MAIL.com"
